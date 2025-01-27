@@ -1,0 +1,86 @@
+body {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.login-form {
+  width: 100%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  width: 300px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transform: scale(0.98);
+  transition: all;
+  transition: transform 0.9s ease;
+}
+.login-form:hover {
+  transform: scale(1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+h2:hover {
+  text-shadow: 0 0 20px rgba(0, 255, 204, 0.3);
+}
+.login-form h2 {
+  text-align: center;
+}
+input {
+  width: 100%;
+  border: 1px solid #01937d;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  color: #01937d;
+  font-size: 16px;
+  box-sizing: border-box;
+  padding: 10px;
+  outline: none;
+  transform: scale(0.98);
+  transition: all;
+  transition: transform 0.3s ease;
+}
+input:hover {
+  transform: scale(1);
+  transition-duration: 100ms;
+  box-shadow: 0 0 20px rgba(0, 255, 204, 0.2);
+}
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #019c85;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 19px;
+  transition: all;
+  transform: scale(0.98);
+  transition: transform 0.3s ease;
+}
+button:hover {
+  transition-duration: 100ms;
+  background: #01937d;
+  box-shadow: 0 0 20px rgba(0, 255, 204, 0.2);
+  transform: scale(1);
+}
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+a {
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+  color: #019c85;
+  text-align: center;
+  margin-top: 4px;
+  transition: all;
+  font-size: 12px;
+  transform: scale(0.98);
+  transition: transform 0.3s ease;
+}
