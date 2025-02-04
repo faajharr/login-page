@@ -1,5 +1,5 @@
 # Halaman Login
-
+faajharr.github.io/login_page/
 Repositori ini berisi halaman login dan registrasi yang sederhana serta responsif yang dibuat dengan HTML dan CSS. Berikut adalah detail dan struktur proyeknya.
 
 ---
